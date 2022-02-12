@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+ font-family: Amazon Ember, ;
+
+font-size: 16px;
+letter-spacing: 0;
+font-style: normal;
+font-weight: 400;
+
+color: rgb(17,17,17);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'monospace' ;
+}

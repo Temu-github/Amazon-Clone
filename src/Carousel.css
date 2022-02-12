@@ -1,0 +1,29 @@
+/* *{
+	margin: 0;
+	padding: 0;
+} */
+.container{
+	width: 100%!important;
+}
+
+.carousel{
+	max-width:100%;
+	margin-bottom: -355px;
+}
+.slide{
+	max-width: 100%;
+	
+}
+.glyphicon{
+	position: relative!important;
+	top: 150px!important;
+	left: 1px!important;
+}
+.carousel-control{
+	border: 3px outset rgb(250, 248, 248) !important;
+	background:transparent;
+	width: 50px!important;
+	height: 50% !important;
+	/* margin-left:10px; */
+
+}
