@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "clone-td-54127"
-  }
+    "default": "td-amzon-clone"
+  },
+  "targets": {}
 }

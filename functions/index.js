@@ -1,9 +1,11 @@
+
+
 const functions = require('firebase-functions');
 
 const express = require('express');
 const cors = require('cors');
 const stripe = require('stripe')(
-    'sk_test_51KH0XEGZhwMVdN13F6zSeSnUveH1tG3xUgiE6jkNgDBvSzFRxT1IXZ4CJ1XHHrgQtnQUE0FvjT3cFFex77aDcMbX0073eeqpVm'
+    'sk_test_51KEYkpIuxY9HcYRNgCKMQmzmWCdiqfyiYoKBlwt8Cu118bQLzMuEnWUmpUwjQBIDlEh49i13wXjlKd840A5nZfGj00z0RA8rmz'
 );
 
 // - App config
@@ -14,6 +16,7 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 app.get('/', (request, response) => response.status(200).send('hello world'));
+
 
 app.post('/payments/create', async (request, response) => {
     const total = request.query.total;
@@ -33,3 +36,5 @@ app.post('/payments/create', async (request, response) => {
 
 // - Listen command
 exports.api = functions.https.onRequest(app);
+
+//http://localhost:5001/td-amzon-clone/us-central1/api
